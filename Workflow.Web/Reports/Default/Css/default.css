@@ -1,0 +1,45 @@
+﻿body {
+    font-weight: bold;
+    margin: 0px;
+    width: 100%;
+}
+
+table {
+    height: 80px;
+    border: none;
+    border-collapse: collapse;
+    border-color: #B1DEB1;
+}
+
+    table td {
+        padding: 0px;
+    }
+
+        table td:first-child {
+            width: 80px;
+        }
+
+        table td:last-child {
+            width: 100%;
+        }
+
+.rectangle {
+    height: 79px;
+    width: 80px;
+    background-color: #58BA5B;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Microsoft Sans Serif';
+}
+
+.logo {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.divider {
+    border-bottom: 1px solid #58BA5B;
+}
